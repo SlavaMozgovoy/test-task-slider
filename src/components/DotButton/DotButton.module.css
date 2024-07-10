@@ -1,0 +1,70 @@
+.wrapper {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: #4a5b76;
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.button_content {
+    color: #4a5b76;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 10;
+    font-weight: bold;
+    font-size: 20px;
+    display: none;
+}
+
+.wrapper:hover .button, .button.active {
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border: 1px solid #4a5b76;
+    .button_content {
+        display: block;
+    }
+}
+
+.button.active {
+    .title {
+        display: flex;
+        scale: 1;
+    }
+}
+
+
+.title {
+    position: absolute;
+    display: none;
+    height: 56px;
+    align-items: center;
+    top: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #42567A;
+    margin-left: 76px;
+    scale: 0;
+}
+
+/* Наука */
+
+
+
+

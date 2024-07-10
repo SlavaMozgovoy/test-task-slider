@@ -1,0 +1,12 @@
+.circleToggler {
+    width: 120px;
+    row-gap: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circleToggler_buttons {
+    display: flex;
+    justify-content: space-between;
+}

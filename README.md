@@ -1,2 +1,7 @@
-# test-task-slider
-Frontend slider test task. React + ts
+#Çàïóñê ïğîåêòà
+
+#npm install –legacy-peer-deps
+
+#npm run build
+
+#npm run start

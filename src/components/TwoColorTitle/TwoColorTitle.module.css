@@ -1,0 +1,21 @@
+
+.title {
+    font-size: 200px;
+    text-align: center;
+}
+
+.firstPart {
+    color: rgb(91, 97, 234);
+}
+
+.secondPart {
+    color: rgb(239, 93, 168);
+}
+
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 56px;
+        font-size: 15.2vw;
+    }
+}

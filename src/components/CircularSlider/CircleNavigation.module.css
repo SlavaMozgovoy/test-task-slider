@@ -1,0 +1,25 @@
+
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    display: none;
+}
+
+.navigationDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: #acb5c6;
+}
+
+.navigationDot.active {
+    background-color: #42557c;
+}    
+
+@media (max-width: 800px) {
+    .wrapper {
+        display: flex;
+    }
+}
