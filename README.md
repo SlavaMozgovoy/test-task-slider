@@ -1,7 +1,9 @@
-#Запуск проекта
+#Р—Р°РїСѓСЃРє РїСЂРёР»РѕР¶РµРЅРёСЏ
 
-#npm install –legacy-peer-deps
+#npm install вЂ“legacy-peer-deps
 
 #npm run build
 
 #npm run start
+
+#localhost:8080
